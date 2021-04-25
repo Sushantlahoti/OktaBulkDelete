@@ -10,7 +10,7 @@ Steps:
 
 1. Install Maven - https://maven.apache.org/install.html
 
-2. Download OktaBulkLoad repository from Github - https://github.com/schandra-okta/OktaBulkLoader.git
+2. Download OktaBulkLoad repository from Github - https://github.com/Sushantlahoti/OktaBulkDelete.git
 
 3. Make appropriate changes to the config.properties file to match up with
    your local environment
@@ -26,3 +26,5 @@ Steps:
 5. Using the jar file that is created in the target directory, start up the application
 
 	$> java -jar target/okta-bulkload.jar <path_to_config_file> <path_to_csv_file>
+
+Example : "C:\Workspace\Workspace\Development\OktaBulkDelete-Master\OktaBulkDelete-Master\OktaBulkDelete-Master\src\main\resources\config.properties" "C:\Workspace\Workspace\Development\OktaBulkDelete-Master\OktaBulkDelete-Master\OktaBulkDelete-Master\test1.csv"
